@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Mgazza.Shouldly</id>
+    <version>$version$</version>
+    <title>Mgazza shouldly extensions</title>
+    <description>Mgazza shouldly extensions</description>
+    <authors>Mark Gascoyne</authors>
+    <language>en-GB</language>
+    <projectUrl>https://github.com/mgazza/Optional</projectUrl>
+    <licenseUrl>https://raw.github.com/Mgazza/Optional/master/LICENSE.md</licenseUrl>
+    <tags>optional shouldly</tags>
+	
+	<dependencies>
+      <dependency id="Mgazza.Optional" version="1.0.0" />
+      <dependency id="Shouldly" version="2.6.0" />
+    </dependencies>
+  </metadata>
+  
+  <files>
+    <file src="../Mgazza.Optional/bin/Release/Mgazza.Optional.dll" target="lib/net45" />
+    <file src="../packages/Shouldly.2.6.0/lib/net40/Shouldly.dll" target="lib/net40" /> 
+  </files>
+</package>

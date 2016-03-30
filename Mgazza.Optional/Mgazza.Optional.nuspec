@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Mgazza.Optional</id>
+    <version>$version$</version>
+    <title>Mgazza Optional class</title>
+    <description>Optional&lt; T&gt;class for rest interfaces</description>
+    <authors>Mark Gascoyne</authors>
+    <language>en-GB</language>
+    <projectUrl>https://github.com/mgazza/Optional</projectUrl>
+    <licenseUrl>https://raw.github.com/Mgazza/Optional/master/LICENSE.md</licenseUrl>
+    <tags>optional rest json</tags>
+  </metadata>
+</package>

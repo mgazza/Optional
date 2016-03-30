@@ -10,13 +10,13 @@
             Val = value;
             HasBeenSet = true;
         }
-
+        /*
         public Optional(Optional<T> value)
         {
             Val = (T)value.Value;
             HasBeenSet = value.HasBeenSet;
         }
-
+        */
         public bool HasBeenSet { get; }
 
         public override bool Equals(object obj)

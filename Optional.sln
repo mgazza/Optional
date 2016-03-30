@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mgazza.Shouldly", "Mgazza.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mgazza.AutoMapper", "Mgazza.Automapper\Mgazza.AutoMapper.csproj", "{2D3DC7A8-69A3-413B-84DC-F34F506C181A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mgazza.Optional.Tests", "Mgazza.Optional.Tests\Mgazza.Optional.Tests.csproj", "{334C0D5C-C9D9-4FF8-9D7D-5C2286D8638C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2D3DC7A8-69A3-413B-84DC-F34F506C181A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D3DC7A8-69A3-413B-84DC-F34F506C181A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D3DC7A8-69A3-413B-84DC-F34F506C181A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334C0D5C-C9D9-4FF8-9D7D-5C2286D8638C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334C0D5C-C9D9-4FF8-9D7D-5C2286D8638C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334C0D5C-C9D9-4FF8-9D7D-5C2286D8638C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334C0D5C-C9D9-4FF8-9D7D-5C2286D8638C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

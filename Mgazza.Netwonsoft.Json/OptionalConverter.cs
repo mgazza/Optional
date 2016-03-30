@@ -18,20 +18,28 @@ namespace Newtonsoft.Json
         {
             var destType = objectType.GetGenericArguments()[0];
 
-            var value = Convert.ChangeType(reader.Value, destType);
+            var u = Nullable.GetUnderlyingType(destType);
 
-            var xtype = otype.MakeGenericType(destType);
+            var value = u != null
+                ? (reader.Value == null ? Activator.CreateInstance(u) : Convert.ChangeType(reader.Value, u))
+                : Convert.ChangeType(reader.Value, destType);
+
+            var xtype = Otype.MakeGenericType(destType);
 
             return Activator.CreateInstance(xtype, value);
+
+
         }
 
-        private static Type itype = typeof (IOptional);
+        private static readonly Type Itype = typeof (IOptional);
 
-        private static Type otype = typeof (Optional<>);
+        private static readonly Type Otype = typeof (Optional<>);
 
         public override bool CanConvert(Type objectType)
         {
-            return itype.IsAssignableFrom(objectType);
+            return Itype.IsAssignableFrom(objectType);
         }
+
+       
     }
 }
