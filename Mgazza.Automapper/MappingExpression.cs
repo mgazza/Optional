@@ -10,7 +10,7 @@ namespace AutoMapper
             mappingExpression.ForAllMembers(mo => mo.Condition(f =>
             {
                 var opt = f.SourceValue as IOptional;
-                return opt != null && opt.HasBeenSet;
+                return opt == null || opt.HasBeenSet;
             }));
         }
     }
