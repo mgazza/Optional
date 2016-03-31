@@ -30,3 +30,27 @@ public class Person {
 ```
 
 Optional allows either client to supply any of the optional properties including setting the field to null where allowed.
+
+Usage samples
+-------------
+Please checkout the branch and see Mgazza.Optional.Tests for example usages.
+
+MVC quick-start sample
+----------------------
+in your global.ascx.cs add the following and you'll be ready to create the above scenario
+
+```csharp
+protected void Application_Start()
+{
+    var httpConfiguration = GlobalConfiguration.Configuration;
+	var settings = httpConfiguration.Formatters.JsonFormatter.SerializerSettings;
+	settings.Converters.Add(new OptionalJsonConverter());
+	settings.NullValueHandling = NullValueHandling.Ignore;
+
+	settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+	settings.NullValueHandling = NullValueHandling.Include;
+	settings.DateFormatHandling = DateFormatHandling.IsoDateFormat;
+	settings.DateParseHandling = DateParseHandling.DateTimeOffset;
+	
+	}
+````
