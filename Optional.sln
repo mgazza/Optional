@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mgazza.Netwonsoft.Json", "Mgazza.Netwonsoft.Json\Mgazza.Netwonsoft.Json.csproj", "{B23249C6-8409-448C-9613-6BDF48E1EFB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mgazza.Newtonsoft.Json", "Mgazza.Newtonsoft.Json\Mgazza.Newtonsoft.Json.csproj", "{B23249C6-8409-448C-9613-6BDF48E1EFB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mgazza.Optional", "Mgazza.Optional\Mgazza.Optional.csproj", "{7259433C-5F91-47BF-A4C5-57DDCBF10E90}"
 EndProject

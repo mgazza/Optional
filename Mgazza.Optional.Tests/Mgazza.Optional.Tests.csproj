@@ -76,9 +76,9 @@
       <Project>{2d3dc7a8-69a3-413b-84dc-f34f506c181a}</Project>
       <Name>Mgazza.AutoMapper</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Mgazza.Netwonsoft.Json\Mgazza.Netwonsoft.Json.csproj">
+    <ProjectReference Include="..\Mgazza.Newtonsoft.Json\Mgazza.Newtonsoft.Json.csproj">
       <Project>{b23249c6-8409-448c-9613-6bdf48e1efb9}</Project>
-      <Name>Mgazza.Netwonsoft.Json</Name>
+      <Name>Mgazza.Newtonsoft.Json</Name>
     </ProjectReference>
     <ProjectReference Include="..\Mgazza.Optional\Mgazza.Optional.csproj">
       <Project>{7259433C-5F91-47BF-A4C5-57DDCBF10E90}</Project>

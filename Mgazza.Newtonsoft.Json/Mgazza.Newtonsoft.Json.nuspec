@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Mgazza.Netwonsoft.Json</id>
+    <id>Mgazza.Newtonsoft.Json</id>
     <version>$version$</version>
-    <title>Mgazza Netwonsoft.Json extensions</title>
-    <description>Mgazza Netwonsoft.Json extensions</description>
+    <title>Mgazza Newtonsoft.Json extensions</title>
+    <description>Mgazza Newtonsoft.Json extensions</description>
     <authors>Mark Gascoyne</authors>
     <language>en-GB</language>
     <projectUrl>https://github.com/mgazza/Optional</projectUrl>
@@ -13,7 +13,7 @@
 	
 	<dependencies>
       <dependency id="Mgazza.Optional" version="1.0.0" />
-      <dependency id="Netwonsoft.Json" version="8.0.3" />
+      <dependency id="Newtonsoft.Json" version="8.0.3" />
     </dependencies>
   </metadata>
   
