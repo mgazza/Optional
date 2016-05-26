@@ -3,6 +3,8 @@ Optional
 Optional<T> for C#.. for tracking if an objects value has ever been set. 
 Works with Classes, Value Types and Nullable<T>.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/06b0gr6ixw4s4yn0?svg=true)](https://ci.appveyor.com/project/mgazza/optional)
+
 Restful - Partial Updates
 -------------------------
 Optional allows a restful service to provide clients with a flexible contract where by they can submit the fields they require to be updated.
